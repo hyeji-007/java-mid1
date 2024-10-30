@@ -9,9 +9,13 @@ public class RefMain1_3 {
         System.out.println("a = " + a);
         System.out.println("b = " + b);
 
-        b.setValue("부산"); //b의 값을 부산으로 변경해야함
-        System.out.println("부산 -> b");
+        change(b, "부산");
         System.out.println("a = " + a);
         System.out.println("b = " + b);
+    }
+
+    private static void change(Address address, String changeAddress) {
+        System.out.println("주소 값을 변경합니다 -> " + changeAddress);
+        address.setValue(changeAddress);
     }
 }
