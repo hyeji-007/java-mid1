@@ -17,6 +17,8 @@ public class MemberMainV1 {
 //        address1.setValue("부산");
         
         memberB.getAddress().setValue("부산");
-
+        System.out.println("부산 -> memberB.address");
+        System.out.println("memberA = " + memberA);
+        System.out.println("memberB = " + memberB);
     }
 }
