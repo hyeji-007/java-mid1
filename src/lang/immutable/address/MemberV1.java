@@ -10,6 +10,19 @@ public class MemberV1 {
         this.address = address;
     }
 
+    public Address getAddress() {
+        return address;
+    }
 
+    public void setAddress(Address address) {
+        this.address = address;
+    }
 
+    @Override
+    public String toString() {
+        return "MemberV1{" +
+                "name='" + name + '\'' +
+                ", address=" + address +
+                '}';
+    }
 }
