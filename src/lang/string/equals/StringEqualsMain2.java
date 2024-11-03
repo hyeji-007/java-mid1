@@ -13,7 +13,8 @@ public class StringEqualsMain2 {
     }
 
     private static boolean isSame(String x, String y) {
-        return x == y;
+        //return x == y;
+        return x.equals(y); //문자열 비교는 항상 동등성 비교
     }
 
 }
