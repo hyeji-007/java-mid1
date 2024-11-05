@@ -22,6 +22,5 @@ public class StringBuilderMain1_1 {
         //StringBuilder -> String
         String string = sb.toString();
         System.out.println("string = " + string);
-
     }
 }
