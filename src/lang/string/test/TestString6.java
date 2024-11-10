@@ -9,14 +9,13 @@ public class TestString6 {
         int count = 0;
         int index = str.indexOf(key);
         System.out.println("index = " + index);
+
         while (index >= 0) {
             index = str.indexOf(key, index + 1);
             System.out.println("index in while = " + index);
             count++;
         }
         System.out.println("count = " + count);
-
     }
-
 }
 
